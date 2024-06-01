@@ -9,13 +9,21 @@ h1 {
     color: white;
     font-size: 40px;
     padding: 10px;
+    text-align: center;
 }
 
 .box-one {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.box-two {
     display: flex;
     flex-direction: row;
+    text-align: center;
     justify-content: center;
-    background: black;
+    background: lightblue;
     color: white;
 }
 
