@@ -7,9 +7,16 @@
     </head>
 <body>
     <!-- Navbar -->
-    <div></div>
+    <div class="Navbar"></div>
     <!-- header -->
-    <h1 id="header">Markus portfolio</h1>
+    <div class="header-div">
+        <h1>Markus portfolio</h1>
+        <h6>github</h6>
+        <style>
+            h1, h6 {display:inline;} 
+        </style>
+    </div>
+    
     <!-- Description -->
     <div class="box-one">
         <img src="./images/raccoon1.jpeg" height="310" width="310">
@@ -18,11 +25,15 @@
         <button>Sign up for my newsletter</button>
     </div>
     <div class="box-two">
-        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About Onomatophobia</a> <br>
-        <ul>
-            <li><a href="./pages/projectone.html" target="_blank" rel="noopener noreferrer">Project one</a><img src="./images/raccoon2.jpeg" height="100" width="100"></li>
-            <li><a href="./pages/projecttwo.html" target="_blank" rel="noopener noreferrer">Project two</a><img src="./images/raccoon3.jpeg" height="100" width="100"></li>
-        </ul>
+        <div class="about"><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About Onomatophobia</a></div>
+        <div class="project-one">
+            <a href="./pages/projectone.html" target="_blank" rel="noopener noreferrer">Project one</a>
+            <img src="./images/raccoon2.jpeg" height="100" width="100">
+        </div>
+        <div class="project-two">
+            <a href="./pages/projecttwo.html" target="_blank" rel="noopener noreferrer">Project two</a>
+            <img src="./images/raccoon3.jpeg" height="100" width="100">
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
